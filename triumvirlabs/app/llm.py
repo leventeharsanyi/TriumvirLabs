@@ -3,12 +3,11 @@ import anthropic
 from dotenv import load_dotenv
 
 # Parameters
-model_type = "claude-3-haiku-20240307"  # "claude-3-5-sonnet-20241022", "claude-3-haiku-20240307" # Choose from here: https://docs.anthropic.com/en/docs/about-claude/models
+model_type = "claude-haiku-4-5-20251001" # "claude-3-haiku-20240307" "claude-3-5-sonnet-20241022", "claude-3-haiku-20240307" # Choose from here: https://docs.anthropic.com/en/docs/about-claude/models
 api_call_sleep_sec = 70
 max_output_tokens = 1_000
 max_input_tokens = 20_000
 temperature = 0
-question = "Has the patient ever smoked tobacco?"
 
 # Setup
 load_dotenv()
@@ -57,4 +56,4 @@ def llm_call(question: str) -> str:
 
 
 if __name__ == "__main__":
-    generated_answer = llm_call(question=question)
+    generated_answer = llm_call(question="Has the patient ever smoked tobacco?")
