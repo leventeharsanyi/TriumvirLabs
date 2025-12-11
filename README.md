@@ -31,3 +31,7 @@ poetry run streamlit run app/main.py
 
 ## Data
 The sythetic EHR data used for this project comes from Synthea, you can find out more details about there open-source patient population simulation data [here](https://synthea.mitre.org/downloads).
+
+## Used APIs
+- [ElevenLabs](https://elevenlabs.io/)
+- [Anthropic](https://anthropic.com/)
