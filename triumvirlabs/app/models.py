@@ -12,7 +12,7 @@ if api_key is None:
 client = ElevenLabs(api_key=api_key)
 
 
-def generate_voice(text: str):
+def generate_voice(text: str) -> bytes:
     audio = client.text_to_speech.convert(
         text=text,
         voice_id="JBFqnCBsd6RMkjVDRZzb",
@@ -23,7 +23,7 @@ def generate_voice(text: str):
     return audio_bytes
 
 
-def generate_text(audio_input):
+def generate_text(audio_input: io.BytesIO) -> str:
     audio_data = io.BytesIO(audio_input.getvalue())
     transcription = client.speech_to_text.convert(
         file=audio_data,
