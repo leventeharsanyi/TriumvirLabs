@@ -5,12 +5,14 @@ Small Streamlit demo app using **Python 3.12** and **Poetry**.
 ## Setup
 
 ```bash
-git clone https://github.com/leventeharsanyi/Anamgenesis
-cd anamgenesis
+git clone https://github.com/leventeharsanyi/TriumvirLabs
+cd triumvirlabs
 poetry env use python3.13
 poetry shell
 poetry install
 ```
+
+If `poetry shell` is not working, try `eval $(poetry env activate)`
 
 ## Adding an env file and put a secret key there
 The .env should be at the level of pyproject.toml. For testing purposes add a secret like this to the env. Also add the ELEVENSLAB api key.
