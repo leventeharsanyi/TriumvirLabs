@@ -3,7 +3,9 @@ name = "triumvirlabs"
 version = "0.1.0"
 description = "ElevenLabs Worldwide Hackathon"
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Aron Pap",email = "aron.pap@barcelonagse.eu"},
+    {name = "Levente Harsanyi",email = "hlevente17@gmail.com"},
+    {name = "Peter Palos",email = "peterpalos333@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
