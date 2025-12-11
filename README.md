@@ -1,6 +1,6 @@
 # TriumvirLabs
 
-Small Streamlit demo app using **Python 3.12** and **Poetry**.
+Small Streamlit demo app using **Python 3.13** and **Poetry**.
 
 ## Setup
 
