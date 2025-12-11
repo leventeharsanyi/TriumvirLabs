@@ -16,7 +16,7 @@ load_dotenv()  # take environment variables from .env
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
 # Import data
-f = open('./input_ehr.txt', 'r')
+f = open('app/input_ehr.txt', 'r')
 ehr_medical_history_example = f.read()
 # breakpoint()
 
@@ -26,7 +26,8 @@ def llm_call(question: str) -> str:
     prompt = f"""
     You are a helpful medical assistant that answers questions using text from the reference medical history included below.
     Be sure to respond in a complete sentence, being comprehensive, including all relevant background information.
-    Strike a friendly and converstional tone. If the medical history is irrelevant to the answer, you may ignore it.
+    Strike a friendly and converstional tone. If the medical history is irrelevant to the answer, you may ignore it. 
+    In case of a timestamp just use the date without the exact time.
 
     QUESTION: {question}
     MEDICAL HISTORY: {ehr_medical_history_example}
