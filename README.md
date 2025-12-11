@@ -14,12 +14,13 @@ poetry install
 
 If `poetry shell` is not working, try `eval $(poetry env activate)`
 
-## Adding an env file and put a secret key there
-The .env should be at the level of pyproject.toml. For testing purposes add a secret like this to the env. Also add the ELEVENSLAB api key.
+## Adding an env file and put secret keys there
+The .env should be at the level of pyproject.toml. For testing purposes add a secret like this to the env. Also add the ELEVENLABS_API_KEY and the ANTHROPIC_API_KEY.
 
 ```bash
 MY_SECRET_MESSAGE=You_did_it!
 ELEVENLABS_API_KEY=<YOUR_API_KEY>
+ANTHROPIC_API_KEY=<YOUR_API_KEY>
 ```
 
 ## Running the app
