@@ -1,0 +1,201 @@
+Patient has the following chief complaint:
+        DATE;chief_complaint
+2020-10-30 11:02:48;Ankle sprain requiring emergency care.
+
+        and has the following characteristics:
+        BIRTHDATE;DEATHDATE;MARITAL;RACE;ETHNICITY;GENDER;BIRTHPLACE;CITY
+1994-02-06;NaN;M;white;nonhispanic;M;Boston  Massachusetts  US;Braintree
+
+        and has the following encounter:
+        START;STOP;ENCOUNTERCLASS;DESCRIPTION;REASONDESCRIPTION
+2012-04-01 09:04:48;2012-04-01T10:02:47Z;wellness;General examination of patient (procedure);NaN
+2013-04-07 09:04:48;2013-04-07T09:55:49Z;wellness;General examination of patient (procedure);NaN
+2015-09-28 09:04:48;2015-09-28T11:02:48Z;emergency;Emergency room admission (procedure);Fracture of bone (disorder)
+2015-10-31 11:02:48;2015-10-31T11:17:48Z;ambulatory;Encounter for check up (procedure);Closed fracture of hip (disorder)
+2016-04-10 09:04:48;2016-04-10T10:00:45Z;wellness;General examination of patient (procedure);NaN
+2016-04-24 09:04:48;2016-04-24T11:43:25Z;ambulatory;Encounter for check up (procedure);Gingivitis (disorder)
+2019-04-14 09:04:48;2019-04-14T09:35:57Z;wellness;General examination of patient (procedure);NaN
+
+        and went through the following procedures:
+        START;STOP;DESCRIPTION;REASONDESCRIPTION
+2015-09-28 09:04:48;2015-09-28T09:34:48Z;Plain X-ray of pelvis (procedure);NaN
+2015-09-28 09:04:48;2015-09-28T11:02:48Z;Admission to orthopedic department (procedure);Closed fracture of hip (disorder)
+2016-04-10 09:04:48;2016-04-10T09:19:48Z;Medication reconciliation (procedure);NaN
+2016-04-10 09:04:48;2016-04-10T10:00:45Z;Assessment of health and social care needs (procedure);NaN
+2016-04-10 10:00:45;2016-04-10T10:22:03Z;Assessment of anxiety (procedure);NaN
+2016-04-10 10:22:03;2016-04-10T10:57:35Z;Screening for domestic abuse (procedure);NaN
+2016-04-10 10:57:35;2016-04-10T11:12:09Z;Depression screening (procedure);NaN
+2016-04-10 11:12:09;2016-04-10T11:33:02Z;Depression screening (procedure);NaN
+2016-04-10 11:33:02;2016-04-10T11:46:15Z;Assessment of substance use (procedure);NaN
+2016-04-10 11:46:15;2016-04-10T12:07:28Z;Screening for drug abuse (procedure);NaN
+2016-04-10 12:07:28;2016-04-10T12:12:28Z;Patient referral for dental care (procedure);Gingivitis (disorder)
+2016-04-24 09:04:48;2016-04-24T09:28:42Z;Dental consultation and report (procedure);Gingivitis (disorder)
+2016-04-24 09:28:42;2016-04-24T09:51:15Z;Dental care (regime/therapy);Gingivitis (disorder)
+2016-04-24 09:51:15;2016-04-24T10:18:54Z;Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure);Gingivitis (disorder)
+2016-04-24 10:18:54;2016-04-24T10:56:49Z;Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure);Gingivitis (disorder)
+2016-04-24 10:56:49;2016-04-24T11:26:49Z;Dental plain X-ray bitewing (procedure);NaN
+2016-04-24 10:56:49;2016-04-24T11:29:20Z;Examination of gingivae (procedure);Gingivitis (disorder)
+2016-04-24 11:29:20;2016-04-24T11:43:25Z;Oral health education (procedure);Gingivitis (disorder)
+2019-04-14 09:04:48;2019-04-14T09:19:48Z;Medication reconciliation (procedure);NaN
+2019-04-14 09:04:48;2019-04-14T09:35:57Z;Assessment of health and social care needs (procedure);NaN
+2019-04-14 09:35:57;2019-04-14T10:01:20Z;Assessment of anxiety (procedure);NaN
+2019-04-14 10:01:20;2019-04-14T10:40:18Z;Screening for domestic abuse (procedure);NaN
+2019-04-14 10:40:18;2019-04-14T10:54:27Z;Depression screening (procedure);NaN
+2019-04-14 10:54:27;2019-04-14T11:21:52Z;Depression screening (procedure);NaN
+2019-04-14 11:21:52;2019-04-14T11:35:28Z;Assessment of substance use (procedure);NaN
+2019-04-14 11:35:28;2019-04-14T12:03:53Z;Screening for drug abuse (procedure);NaN
+
+        and has the following allergies:
+        no information
+        and has the following careplans:
+        START;STOP;DESCRIPTION;REASONDESCRIPTION
+2015-09-28;2015-10-31;Fracture care (regime/therapy);Closed fracture of hip (disorder)
+
+        and has the following conditions:
+        START;STOP;DESCRIPTION
+2012-04-01;NaN;Housing unsatisfactory (finding)
+2012-04-01;NaN;Received higher education (finding)
+2012-04-01;NaN;Transport problem (finding)
+2012-04-01;NaN;Social isolation (finding)
+2012-04-01;2016-04-10;Stress (finding)
+2013-04-07;2016-04-10;Medication review due (situation)
+2013-04-07;NaN;Full-time employment (finding)
+2013-04-07;NaN;Lack of access to transportation (finding)
+2015-09-28;2015-10-31;Fracture of bone (disorder)
+2015-09-28;2015-10-31;Closed fracture of hip (disorder)
+2016-04-10;NaN;Limited social contact (finding)
+2016-04-10;2019-04-14;Victim of intimate partner abuse (finding)
+2016-04-10;2016-04-24;Gingivitis (disorder)
+2019-04-14;2019-04-14;Medication review due (situation)
+2019-04-14;NaN;Stress (finding)
+
+        and has the following imaging studies:
+        DATE;BODYSITE_DESCRIPTION;SOP_DESCRIPTION
+2015-09-28 09:04:48;Structure of pelvis (body structure);Digital X-Ray Image Storage
+2016-04-24 10:56:49;Structure of region of internal part of mouth (body structure);Digital Intra-Oral X-Ray Image Storage - For Presentation
+
+        and has the following immunizations:
+        DATE;DESCRIPTION
+2016-04-10 09:04:48;Influenza  seasonal  injectable  preservative free
+2016-04-10 09:04:48;Td (adult)  5 Lf tetanus toxoid  preservative free  adsorbed
+2016-04-10 09:04:48;Hep B  adult
+2016-04-10 09:04:48;meningococcal MCV4P
+2019-04-14 09:04:48;Influenza  seasonal  injectable  preservative free
+
+        and takes the following medications:
+        START;STOP;DESCRIPTION;DISPENSES;REASONDESCRIPTION
+2015-09-28 11:02:48;2015-10-15T09:04:48Z;Acetaminophen 325 MG / HYDROcodone Bitartrate 7.5 MG Oral Tablet;1;NaN
+2015-09-28 11:02:48;2015-10-31T11:02:48Z;Ibuprofen 200 MG Oral Tablet;1;NaN
+
+        and has the following observations:
+        DATE;CATEGORY;DESCRIPTION;VALUE;UNITS
+2016-04-10 09:04:48;vital-signs;Body Height;176.1;cm
+2016-04-10 09:04:48;vital-signs;Pain severity - 0-10 verbal numeric rating [Score] - Reported;3.0;{score}
+2016-04-10 09:04:48;vital-signs;Body Weight;86.4;kg
+2016-04-10 09:04:48;vital-signs;Body mass index (BMI) [Ratio];27.9;kg/m2
+2016-04-10 09:04:48;vital-signs;Diastolic Blood Pressure;94.0;mm[Hg]
+2016-04-10 09:04:48;vital-signs;Systolic Blood Pressure;130.0;mm[Hg]
+2016-04-10 09:04:48;vital-signs;Heart rate;82.0;/min
+2016-04-10 09:04:48;vital-signs;Respiratory rate;12.0;/min
+2016-04-10 09:04:48;laboratory;Leukocytes [#/volume] in Blood by Automated count;5.0;10*3/uL
+2016-04-10 09:04:48;laboratory;Erythrocytes [#/volume] in Blood by Automated count;4.0;10*6/uL
+2016-04-10 09:04:48;laboratory;Hemoglobin [Mass/volume] in Blood;14.8;g/dL
+2016-04-10 09:04:48;laboratory;Hematocrit [Volume Fraction] of Blood by Automated count;48.5;%
+2016-04-10 09:04:48;laboratory;MCV [Entitic volume] by Automated count;90.6;fL
+2016-04-10 09:04:48;laboratory;MCH [Entitic mass] by Automated count;27.4;pg
+2016-04-10 09:04:48;laboratory;MCHC [Mass/volume] by Automated count;33.4;g/dL
+2016-04-10 09:04:48;laboratory;Erythrocyte distribution width [Entitic volume] by Automated count;39.5;fL
+2016-04-10 09:04:48;laboratory;Platelets [#/volume] in Blood by Automated count;227.2;10*3/uL
+2016-04-10 09:04:48;laboratory;Platelet distribution width [Entitic volume] in Blood by Automated count;437.2;fL
+2016-04-10 09:04:48;laboratory;Platelet mean volume [Entitic volume] in Blood by Automated count;11.7;fL
+2016-04-10 09:04:48;social-history;Tobacco smoking status;Never smoked tobacco (finding);NaN
+2016-04-10 10:00:45;survey;Within the last year  have you been afraid of your partner or ex-partner?;Yes;NaN
+2016-04-10 10:00:45;survey;Do you feel physically and emotionally safe where you currently live?;Yes;NaN
+2016-04-10 10:00:45;survey;Are you a refugee?;No;NaN
+2016-04-10 10:00:45;survey;In the past year  have you spent more than 2 nights in a row in a jail  prison  detention center  or juvenile correctional facility?;No;NaN
+2016-04-10 10:00:45;survey;Stress level;Not at all;NaN
+2016-04-10 10:00:45;survey;How often do you see or talk to people that you care about and feel close to (For example: talking to friends on the phone  visiting friends or family  going to church or club meetings)?;1 or 2 times a week;NaN
+2016-04-10 10:00:45;survey;Has lack of transportation kept you from medical appointments  meetings  work  or from getting things needed for daily living;Yes  it has kept me from non-medical meetings  appointments  work  or from getting things that I need;NaN
+2016-04-10 10:00:45;survey;In the past year  have you or any family members you live with been unable to get any of the following when it was really needed?;I choose not to answer this question;NaN
+2016-04-10 10:00:45;survey;What was your best estimate of the total income of all family members from all sources  before taxes  in last year?;100511;/a
+2016-04-10 10:00:45;survey;Primary insurance;Private insurance;NaN
+2016-04-10 10:00:45;survey;Employment status - current;Full-time work;NaN
+2016-04-10 10:00:45;survey;Highest level of education;More than high school;NaN
+2016-04-10 10:00:45;survey;Address;811 Kihn Viaduct;NaN
+2016-04-10 10:00:45;survey;Are you worried about losing your housing?;Yes;NaN
+2016-04-10 10:00:45;survey;Housing status;I have housing;NaN
+2016-04-10 10:00:45;survey;How many people are living or staying at this address?;6.0;{#}
+2016-04-10 10:00:45;survey;Preferred language;English;NaN
+2016-04-10 10:00:45;survey;Have you been discharged from the armed forces of the United States?;No;NaN
+2016-04-10 10:00:45;survey;At any point in the past 2 years  has season or migrant farm work been your or your family's main source of income?;No;NaN
+2016-04-10 10:00:45;survey;Race;White;NaN
+2016-04-10 10:00:45;survey;Do you consider yourself Hispanic/Latino?;No;NaN
+2016-04-10 10:22:03;survey;Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ];3.0;{score}
+2016-04-10 10:57:35;survey;Total score [HARK];0.0;{score}
+2016-04-10 11:33:02;survey;Patient Health Questionnaire 2 item (PHQ-2) total score [Reported];2.0;{score}
+2016-04-10 12:07:28;survey;Total score [DAST-10];1.0;{score}
+2019-04-14 09:04:48;vital-signs;Body Height;176.1;cm
+2019-04-14 09:04:48;vital-signs;Pain severity - 0-10 verbal numeric rating [Score] - Reported;4.0;{score}
+2019-04-14 09:04:48;vital-signs;Body Weight;90.9;kg
+2019-04-14 09:04:48;vital-signs;Body mass index (BMI) [Ratio];29.3;kg/m2
+2019-04-14 09:04:48;vital-signs;Diastolic Blood Pressure;89.0;mm[Hg]
+2019-04-14 09:04:48;vital-signs;Systolic Blood Pressure;131.0;mm[Hg]
+2019-04-14 09:04:48;vital-signs;Heart rate;80.0;/min
+2019-04-14 09:04:48;vital-signs;Respiratory rate;12.0;/min
+2019-04-14 09:04:48;social-history;Tobacco smoking status;Never smoked tobacco (finding);NaN
+2019-04-14 09:35:57;survey;Within the last year  have you been afraid of your partner or ex-partner?;No;NaN
+2019-04-14 09:35:57;survey;Do you feel physically and emotionally safe where you currently live?;Yes;NaN
+2019-04-14 09:35:57;survey;Are you a refugee?;No;NaN
+2019-04-14 09:35:57;survey;In the past year  have you spent more than 2 nights in a row in a jail  prison  detention center  or juvenile correctional facility?;No;NaN
+2019-04-14 09:35:57;survey;Stress level;Somewhat;NaN
+2019-04-14 09:35:57;survey;How often do you see or talk to people that you care about and feel close to (For example: talking to friends on the phone  visiting friends or family  going to church or club meetings)?;1 or 2 times a week;NaN
+2019-04-14 09:35:57;survey;Has lack of transportation kept you from medical appointments  meetings  work  or from getting things needed for daily living;Yes  it has kept me from medical appointments or from getting my medications;NaN
+2019-04-14 09:35:57;survey;In the past year  have you or any family members you live with been unable to get any of the following when it was really needed?;I choose not to answer this question;NaN
+2019-04-14 09:35:57;survey;What was your best estimate of the total income of all family members from all sources  before taxes  in last year?;100511;/a
+2019-04-14 09:35:57;survey;Primary insurance;Private insurance;NaN
+2019-04-14 09:35:57;survey;Employment status - current;Full-time work;NaN
+2019-04-14 09:35:57;survey;Highest level of education;More than high school;NaN
+2019-04-14 09:35:57;survey;Address;811 Kihn Viaduct;NaN
+2019-04-14 09:35:57;survey;Are you worried about losing your housing?;Yes;NaN
+2019-04-14 09:35:57;survey;Housing status;I have housing;NaN
+2019-04-14 09:35:57;survey;How many people are living or staying at this address?;6.0;{#}
+2019-04-14 09:35:57;survey;Preferred language;English;NaN
+2019-04-14 09:35:57;survey;Have you been discharged from the armed forces of the United States?;No;NaN
+2019-04-14 09:35:57;survey;At any point in the past 2 years  has season or migrant farm work been your or your family's main source of income?;No;NaN
+2019-04-14 09:35:57;survey;Race;White;NaN
+2019-04-14 09:35:57;survey;Do you consider yourself Hispanic/Latino?;No;NaN
+2019-04-14 10:01:20;survey;Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ];2.0;{score}
+2019-04-14 10:40:18;survey;Total score [HARK];0.0;{score}
+2019-04-14 11:21:52;survey;Patient Health Questionnaire 2 item (PHQ-2) total score [Reported];2.0;{score}
+2019-04-14 12:03:53;survey;Total score [DAST-10];0.0;{score}
+2014-02-06 09:04:48;NaN;QALY;19.0;a
+2015-02-06 09:04:48;NaN;QALY;20.0;a
+2016-02-06 09:04:48;NaN;QALY;21.0;a
+2017-02-06 09:04:48;NaN;QALY;22.0;a
+2018-02-06 09:04:48;NaN;QALY;23.0;a
+2019-02-06 09:04:48;NaN;QALY;24.0;a
+2020-02-06 09:04:48;NaN;QALY;25.0;a
+2014-02-06 09:04:48;NaN;DALY;0.0;a
+2015-02-06 09:04:48;NaN;DALY;0.0;a
+2016-02-06 09:04:48;NaN;DALY;0.0;a
+2017-02-06 09:04:48;NaN;DALY;0.0;a
+2018-02-06 09:04:48;NaN;DALY;0.0;a
+2019-02-06 09:04:48;NaN;DALY;0.0;a
+2020-02-06 09:04:48;NaN;DALY;0.0;a
+2014-02-06 09:04:48;NaN;QOLS;1.0;{score}
+2015-02-06 09:04:48;NaN;QOLS;1.0;{score}
+2016-02-06 09:04:48;NaN;QOLS;1.0;{score}
+2017-02-06 09:04:48;NaN;QOLS;1.0;{score}
+2018-02-06 09:04:48;NaN;QOLS;1.0;{score}
+2019-02-06 09:04:48;NaN;QOLS;1.0;{score}
+2020-02-06 09:04:48;NaN;QOLS;1.0;{score}
+
+        and has the following discharge reports:
+        START;generated_discharge_report
+2012-04-01 09:04:48;Patient presented for a routine wellness examination. General assessment conducted, including vital signs and physical examination. No significant abnormalities noted. Patient reported overall good health with no current concerns. Recommended routine screenings and vaccinations as per guidelines. Advised to maintain a healthy lifestyle with regular exercise and balanced diet. Follow-up appointment suggested in one year or as needed for specific concerns. Patient was informed about the importance of regular health check-ups. Discharged in stable condition.
+2013-04-07 09:04:48;Patient presented for a routine wellness examination. General assessment was conducted, revealing no significant abnormalities. Vital signs were within normal limits. Patient reported feeling well with no complaints. Health promotion and disease prevention strategies discussed, including recommendations for regular exercise, a balanced diet, and routine screenings. Patient was advised to maintain follow-up with primary care for continued health monitoring. No further interventions required at this time. Discharged in stable condition.
+2015-09-28 09:04:48;Patient presented to the emergency room with a suspected fracture. Upon examination, imaging confirmed a fracture of the distal radius. The patient was stabilized and received appropriate pain management. A splint was applied, and the patient was given instructions for care at home, including immobilization and elevation of the affected limb. Follow-up with an orthopedic specialist was recommended within one week for further evaluation and management. The patient was discharged in stable condition with prescriptions for pain relief and advice on activity restrictions.
+2015-10-31 11:02:48;Patient presented for a routine check-up following a closed fracture of the hip. Examination revealed stable condition with no signs of acute distress. Range of motion in the affected hip is improving, and the patient reports reduced pain levels since the last visit. Mobility aids are being utilized effectively, and the patient is adhering to the rehabilitation regimen. Recommended continuation of physical therapy and regular follow-ups to monitor progress. Patient educated on signs of potential complications and advised to maintain activity modifications as discussed. Overall, the patient is cleared for discharge with a follow-up appointment scheduled in four weeks.
+2016-04-10 09:04:48;Patient presented for a routine wellness examination. General examination was performed, including assessment of vital signs, physical examination, and review of medical history. No significant abnormalities were noted during the examination. The patient is in stable condition with no immediate concerns. Recommendations for preventive care and necessary screenings were discussed. Follow-up appointment scheduled as appropriate. Patient advised to maintain a healthy lifestyle and to seek care if any new symptoms arise.
+2016-04-24 09:04:48;Patient presented for a routine check-up with a diagnosis of gingivitis. Clinical evaluation revealed signs of gum inflammation, including redness and swelling. Oral hygiene practices were assessed, and the patient was educated on proper brushing and flossing techniques. A dental cleaning was recommended, along with a follow-up visit in six months to monitor gum health and address any ongoing concerns. The patient was advised to maintain regular dental visits and to report any changes in symptoms. Overall, the patient is stable and was discharged with educational materials on gingivitis management.
+2019-04-14 09:04:48;Patient presented for a general wellness examination. Vital signs were within normal limits. Physical examination revealed no significant abnormalities. Laboratory tests conducted were unremarkable. Patient was advised on maintaining a healthy lifestyle, including regular exercise and a balanced diet. Discussed the importance of routine follow-ups and preventive health screenings. Patient expressed understanding and has no further concerns at this time. Discharge instructions provided. Follow-up appointment recommended in one year.
