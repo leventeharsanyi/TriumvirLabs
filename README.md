@@ -1,24 +1,23 @@
 # TriumvirLabs
 
-Small Streamlit demo app using **Python 3.13** and **Poetry**.
+Small Streamlit demo app using **Python 3.12** and **Poetry**.
 
 ## Setup
 
 ```bash
 git clone https://github.com/leventeharsanyi/TriumvirLabs
 cd triumvirlabs
-poetry env use python3.13
+poetry env use python3.12
 poetry shell
 poetry install
 ```
 
 If `poetry shell` is not working, try `eval $(poetry env activate)`
 
-## Adding an env file and put secret keys there
-The .env should be at the level of pyproject.toml. For testing purposes add a secret like this to the env. Also add the ELEVENLABS_API_KEY and the ANTHROPIC_API_KEY.
+## Secret Keys
+The .env should be at the level of pyproject.toml. Add the `ELEVENLABS_API_KEY` and the `ANTHROPIC_API_KEY`.
 
 ```bash
-MY_SECRET_MESSAGE=You_did_it!
 ELEVENLABS_API_KEY=<YOUR_API_KEY>
 ANTHROPIC_API_KEY=<YOUR_API_KEY>
 ```
